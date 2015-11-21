@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <style name="Theme.Pedrulesgreen" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_pedrulesgreen</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Pedrulesgreen</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Pedrulesgreen</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Pedrulesgreen</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Pedrulesgreen</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Pedrulesgreen</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_pedrulesgreen</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_pedrulesgreen</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Pedrulesgreen</item>
+        
+        
+    </style>
+
+    <style name="ActionBar.Solid.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_pedrulesgreen</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_pedrulesgreen</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_pedrulesgreen</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Pedrulesgreen</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_pedrulesgreen</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Pedrulesgreen</item>
+    </style>
+
+    <style name="PopupMenu.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_pedrulesgreen</item>	
+    </style>
+
+    <style name="DropDownListView.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_pedrulesgreen</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_pedrulesgreen</item>
+    </style>
+
+    <style name="DropDownNav.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_pedrulesgreen</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_pedrulesgreen</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_pedrulesgreen</item>
+    </style>
+    
+    <style name="ProgressBar.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_pedrulesgreen</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Pedrulesgreen" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_pedrulesgreen</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Pedrulesgreen.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Pedrulesgreen</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Pedrulesgreen</item>
+    </style>
+
+</resources>
